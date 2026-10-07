@@ -1,4 +1,4 @@
-BASE_URL = " https://f201a5b1-cc7a-4de7-9caf-32fe18671c4d.serverhub.praktikum-services.ru" 
+BASE_URL = " https://e6004aa2-81e8-4eb4-af09-50c415823718.serverhub.praktikum-services.ru" 
 
 # создания курьера
 COURIER_ENDPOINT = "/api/v1/courier/"

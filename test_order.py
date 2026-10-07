@@ -1,3 +1,4 @@
+# 48_1_Иванюк Анастасия - финальный проект_инженер по тестированию расширенный
 import pytest
 from sender_stand_request import create_order, get_order 
 from data import order_body
@@ -17,3 +18,4 @@ def test_create_and_get_order():
 
     # Проверка ответа
     assert order_response.status_code == 200, f"Не удалось получить заказ по треку ({track_number}): Код {order_response.status_code}, ответ: {order_response.text}"
+    print("Тест пройден!")
